@@ -1,4 +1,3 @@
-#!/usr/bin/env kotlin
 plugins {
     java
     id("org.springframework.boot") version "4.1.1" apply false
