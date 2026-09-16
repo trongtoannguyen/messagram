@@ -19,5 +19,5 @@ rootProject.name = "messagram"
 
 include("common")
 include("identity-service")
-include("message-service")
+include("messaging-service")
 include("realtime-service")

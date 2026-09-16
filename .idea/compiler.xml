@@ -8,9 +8,9 @@
       <module name="messagram.identity-service" options="-parameters" />
       <module name="messagram.identity-service.main" options="-parameters" />
       <module name="messagram.identity-service.test" options="-parameters" />
-      <module name="messagram.message-service" options="-parameters" />
-      <module name="messagram.message-service.main" options="-parameters" />
-      <module name="messagram.message-service.test" options="-parameters" />
+      <module name="messagram.messaging-service" options="-parameters" />
+      <module name="messagram.messaging-service.main" options="-parameters" />
+      <module name="messagram.messaging-service.test" options="-parameters" />
       <module name="messagram.realtime-service" options="-parameters" />
       <module name="messagram.realtime-service.main" options="-parameters" />
       <module name="messagram.realtime-service.test" options="-parameters" />
