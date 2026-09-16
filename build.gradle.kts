@@ -22,6 +22,16 @@ subprojects {
         }
     }
 
+    // Provide Lombok to all subprojects: compile-only and annotation-processor
+    dependencies {
+        val lombokVersion = "1.18.26"
+        add("compileOnly", "org.projectlombok:lombok:$lombokVersion")
+        add("annotationProcessor", "org.projectlombok:lombok:$lombokVersion")
+
+        add("testCompileOnly", "org.projectlombok:lombok:$lombokVersion")
+        add("testAnnotationProcessor", "org.projectlombok:lombok:$lombokVersion")
+    }
+
     tasks.withType<JavaCompile> {
         options.encoding = "UTF-8"
     }
